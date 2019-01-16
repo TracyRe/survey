@@ -5,13 +5,112 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
     <script type="text/javascript" href="js/jquery-3.3.1.js"></script>
     <script type="text/javascript" href="js/scripts.js"></script>
-    <meta charset="utf-8">
+    <meta charset="utf-7">
     <title>Survey</title>
   </head>
   <body>
     <div class="container">
 
+      <p>Hello!</p>
+      <p>Welcome to our community. We would like to know a few things about you. Please take a few moments to fill out the form. below.</p>
+
+      <form class="" id="welcomeForm">
+
+
+      <div class="form">
+        <div class="row">
+          <div class="col-md-3 label-style">
+            <label for="prefName">What would you like us to call you?</label>
+          </div>
+          <div class="col-md-7 input-style">
+            <input id="prefName" type="text" name="prefName" value="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 label-style">
+            <label for="favColor">What is your favorite color?</label>
+          </div>
+          <div class="col-md-7 input-style">
+            <input id="favColor" type="color" name="favColor" value="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 label-style">
+            <label for="dob">When were you born?</label>
+          </div>
+          <div class="col-md-7 input-style">
+            <input id="dob" type="date" name="dob" value="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 label-style">
+            <p>Pick a make of vehicle</p>
+          </div>
+          <div class="col-md-7 input-style">
+            <label>
+              <input id="vehMake" type="radio" name="vehMake" value="Chevy"> Chevy
+            </label>
+
+            <label>
+              <input id="vehMake" type="radio" name="vehMake" value="Ford"> Ford
+            </label>
+
+            <label>
+              <input id="vehMake" type="radio" name="vehMake" value="Honda"> Honda
+            </label>
+
+            <label>
+              <input id="vehMake" type="radio" name="vehMake" value="Subaru"> Subaru
+            </label>
+
+            <label>
+              <input id="vehMake" type="radio" name="vehMake" value="Tesla"> Tesla
+            </label>
+
+            <label>
+              <input id="vehMake" type="radio" name="vehMake" value="Toyota"> Toyota
+            </label>
+
+            <label>
+              <input id="vehMake" type="radio" name="vehMake" value="Other"> Other
+            </label>
+
+            <label>
+              <input id="vehMake" type="radio" name="vehMake" value="None"> None
+            </label>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 label-style">
+            <label for="computer">Computer Preference</label>
+          </div>
+          <div class="col-md-7 input-style">
+            <select class="droplist" id="computer">
+              <option>Macintosh</option>
+              <option>Windows PC</option>
+              <option>Linux</option>
+              <option>No preference</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-md-3 button-row">
+          </div>
+          <div class="col-md-7">
+            <button type="submit" name="button" id="welcomeSubmit" class="btn-default">Submit</button>
+          </div>
+        </div>
+      </form>
+
     </div>
+
+  </div>
 
   </body>
 </html>

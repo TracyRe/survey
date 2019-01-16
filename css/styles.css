@@ -1,0 +1,17 @@
+.label-style {
+  text-align: right;
+  /* border: 1px solid #f0f; */
+}
+
+label {
+  font-weight: normal;
+}
+
+.input-style {
+  text-align: left;
+  /* border: 1px solid #00f; */
+}
+
+.button-row  {
+  text-align: right;
+}
