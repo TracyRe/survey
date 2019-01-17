@@ -17,115 +17,84 @@
 
         <!-- ********* BEGIN FORM *********** -->
         <form id="welcomeForm">
-          <div class="form">
-            <div class="row">
-              <div class="col-md-3 label-style">
-                <label for="prefName">What would you like us to call you?</label>
-              </div>
-              <div class="col-md-7 input-style">
-                <input id="prefName" type="text" name="prefName" value="">
-              </div>
-            </div>
+          <ul class="flex-outer">
+            <li>
+              <label for="prefName">What would you like us to call you?</label>
+              <input id="prefName" type="text" name="prefName" value="">
+            </li>
 
-            <div class="row">
-              <div class="col-md-3 label-style">
-                <label for="favColor">What is your favorite color?</label>
-              </div>
-              <div class="col-md-7 input-style">
-                <input id="favColor" type="color" name="favColor" value="#ffffff">
-              </div>
-            </div>
+            <li>
+              <label for="favColor">What is your favorite color?</label>
+              <input id="favColor" type="color" name="favColor" value="#ffffff"> <span>Click to pick</span>
+            </li>
 
-            <div class="row">
-              <div class="col-md-3 label-style">
-                <label for="dob">When were you born?</label>
-              </div>
-              <div class="col-md-7 input-style">
-                <input id="dob" type="date" name="dob" value="">
-              </div>
-            </div>
+            <li>
+              <label for="dob">When were you born?</label>
+              <input id="dob" type="date" name="dob" value="">
+            </li>
 
-            <div class="row">
-              <div class="col-md-3 label-style">
-                <p>Pick a make of vehicle</p>
-              </div>
-              <div class="col-md-7 input-style">
-                <label>
-                  <input id="vehMake" type="radio" name="vehMake" value="Chevy"> Chevy
-                </label>
+            <li>
+              <p>Pick a make of vehicle</p>
+              <ul class="flex-inner">
+                <li>
+                  <label><input id="vehMake" type="radio" name="vehMake" value="Chevy"> Chevy</label>
+                </li>
+                <li>
+                  <label><input id="vehMake" type="radio" name="vehMake" value="Ford"> Ford</label>
+                </li>
+                <li>
+                  <label><input id="vehMake" type="radio" name="vehMake" value="Honda"> Honda</label>
+                </li>
+                <li>
+                  <label><input id="vehMake" type="radio" name="vehMake" value="Subaru"> Subaru</label>
+                </li>
+                <li>
+                  <label><input id="vehMake" type="radio" name="vehMake" value="Tesla"> Tesla</label>
+                </li>
+                <li>
+                  <label><input id="vehMake" type="radio" name="vehMake" value="Toyota"> Toyota</label>
+                </li>
+                <li>
+                  <label><input id="vehMake" type="radio" name="vehMake" value="Other"> Other</label>
+                </li>
+                <li>
+                  <label><input id="vehMake" type="radio" name="vehMake" value="None"> None</label>
+                </li>
+              </ul>
+            </li>
 
-                <label>
-                  <input id="vehMake" type="radio" name="vehMake" value="Ford"> Ford
-                </label>
+            <li>
+              <label for="computer">Computer Preference</label>
+              <select class="droplist" id="computer">
+                <option> </option>
+                <option>Apple</option>
+                <option>Linux</option>
+                <option>Windows PC</option>
+                <option>No preference</option>
+              </select>
+            </li>
+            <li>
 
-                <label>
-                  <input id="vehMake" type="radio" name="vehMake" value="Honda"> Honda
-                </label>
-
-                <label>
-                  <input id="vehMake" type="radio" name="vehMake" value="Subaru"> Subaru
-                </label>
-
-                <label>
-                  <input id="vehMake" type="radio" name="vehMake" value="Tesla"> Tesla
-                </label>
-
-                <label>
-                  <input id="vehMake" type="radio" name="vehMake" value="Toyota"> Toyota
-                </label>
-
-                <label>
-                  <input id="vehMake" type="radio" name="vehMake" value="Other"> Other
-                </label>
-
-                <label>
-                  <input id="vehMake" type="radio" name="vehMake" value="None"> None
-                </label>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-3 label-style">
-                <label for="computer">Computer Preference</label>
-              </div>
-              <div class="col-md-7 input-style">
-                <select class="droplist" id="computer">
-                  <option> </option>
-                  <option>Apple</option>
-                  <option>Linux</option>
-                  <option>Windows PC</option>
-                  <option>No preference</option>
-                </select>
-              </div>
-            </div>
-
-
-            <div class="row">
-              <div class="col-md-3 button-row">
-              </div>
-              <div class="col-md-7">
-                <button type="submit" name="button" class="btn-primary">Submit</button>
-              </div>
-            </div>
+            </li>
+          </ul>
+          <div class="button-row">
+            <button type="submit" name="button" class="btn-primary">Submit</button>
           </div>
         </form>
+      </div>
         <!-- ******** END FORM ****** -->
 
-      </div>
       <div class="well">
         <h1>Welcome, <span class="prefName"></span></h1>
 
-        <p>We are happy to have you join us. We look forward to celebrating the anniversay of your birth, <span class="dob strong"></span></p>
+        <p>We are happy to have you join us. We look forward to celebrating the anniversay of your birth, <span class="dob strong"></span>.</p>
 
         <p>As a special treat, on your next birthday, we will give you a brand new <span class="vehMake strong"></span> vehicle and a fully tricked out <span class="computer strong"></span> computer. We hope you like this page. We made it your favorite color.</p>
 
+
         <form id="redo">
-          <div class="row">
-            <div class="col-md-3 button-row">
-            </div>
-            <div class="col-md-7">
-              <button type="button" name="button" class="btn-primary">Redo</button>
-            </div>
+          <div class="button-row">
+            <button type="button" name="button" class="btn-primary">Redo</button>
           </div>
         </form>
 
