@@ -13,7 +13,7 @@ $(document).ready(function() {
     $(".prefName").text(prefName);
     $(".dob").text(dob);
     $(".computer").text(computer);
-    $(".favColor").text(favColor);
+    $("body").css("background-color", favColor);
     $(".vehMake").text(vehMake);
     $(".container").children().toggle();
     event.preventDefault();
