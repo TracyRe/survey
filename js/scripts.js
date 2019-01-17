@@ -20,6 +20,12 @@ $(document).ready(function() {
   });
  $("form#redo").click(function(event) {
    $(".container").children().toggle();
+   $("body").css("background-color", "#ffffff");
+   $("input#prefName").val("");
+   $("#favColor").val("#ffffff");
+   $("#dob").val("");
+   $("input:radio[name=vehMake]").val();
+   $("#computer").val("");
    event.preventDefault();
  });
 });
