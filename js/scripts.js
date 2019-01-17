@@ -18,14 +18,11 @@ $(document).ready(function() {
     $(".container").children().toggle();
     event.preventDefault();
   });
+
  $("form#redo").click(function(event) {
    $(".container").children().toggle();
-   $("body").css("background-color", "#ffffff");
-   $("input#prefName").val("");
-   $("#favColor").val("#ffffff");
-   $("#dob").val("");
-   $("input:radio[name=vehMake]:checked").val("None");
-   $("#computer").val(" ");
+   setTimeout(function () {
+     location.reload()}, 10);
    event.preventDefault();
  });
 });
