@@ -15,3 +15,7 @@ label {
 .button-row  {
   text-align: right;
 }
+
+.well {
+ display: none;
+}
