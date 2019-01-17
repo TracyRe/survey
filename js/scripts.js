@@ -18,4 +18,8 @@ $(document).ready(function() {
     $(".container").children().toggle();
     event.preventDefault();
   });
+ $("form#redo").click(function(event) {
+   $(".container").children().toggle();
+   event.preventDefault();
+ });
 });
