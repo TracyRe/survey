@@ -24,8 +24,8 @@ $(document).ready(function() {
    $("input#prefName").val("");
    $("#favColor").val("#ffffff");
    $("#dob").val("");
-   $("input:radio[name=vehMake]").val();
-   $("#computer").val("");
+   $("input:radio[name=vehMake]:checked").val("None");
+   $("#computer").val(" ");
    event.preventDefault();
  });
 });
