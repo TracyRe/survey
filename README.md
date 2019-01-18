@@ -1,6 +1,6 @@
 # Welcome Survey
 
-#### Portfolio Project for Epicodus - 2019-0116
+#### Form Inputs Project for Epicodus - 2019-0116
 
 #### By Tracy Reith and Ryan Dikeos
 
